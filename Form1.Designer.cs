@@ -31,8 +31,8 @@
             label3 = new Label();
             button1 = new Button();
             ProgressBar1Label = new Label();
-            ProgressBar3Label = new Label();
             ProgressBar2Label = new Label();
+            ProgressBar3Label = new Label();
             SuspendLayout();
             // 
             // progressBar1
@@ -98,37 +98,37 @@
             // ProgressBar1Label
             // 
             ProgressBar1Label.AutoSize = true;
-            ProgressBar1Label.Location = new Point(681, 55);
+            ProgressBar1Label.Location = new Point(694, 51);
             ProgressBar1Label.Name = "ProgressBar1Label";
             ProgressBar1Label.Size = new Size(29, 20);
             ProgressBar1Label.TabIndex = 8;
             ProgressBar1Label.Text = "0%";
             // 
+            // ProgressBar2Label
+            // 
+            ProgressBar2Label.AutoSize = true;
+            ProgressBar2Label.Location = new Point(694, 95);
+            ProgressBar2Label.Name = "ProgressBar2Label";
+            ProgressBar2Label.Size = new Size(29, 20);
+            ProgressBar2Label.TabIndex = 9;
+            ProgressBar2Label.Text = "0%";
+            // 
             // ProgressBar3Label
             // 
             ProgressBar3Label.AutoSize = true;
-            ProgressBar3Label.Location = new Point(681, 138);
+            ProgressBar3Label.Location = new Point(694, 138);
             ProgressBar3Label.Name = "ProgressBar3Label";
             ProgressBar3Label.Size = new Size(29, 20);
             ProgressBar3Label.TabIndex = 10;
             ProgressBar3Label.Text = "0%";
-            // 
-            // ProgressBar2Label
-            // 
-            ProgressBar2Label.AutoSize = true;
-            ProgressBar2Label.Location = new Point(681, 95);
-            ProgressBar2Label.Name = "ProgressBar2Label";
-            ProgressBar2Label.Size = new Size(29, 20);
-            ProgressBar2Label.TabIndex = 11;
-            ProgressBar2Label.Text = "0%";
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(ProgressBar2Label);
             Controls.Add(ProgressBar3Label);
+            Controls.Add(ProgressBar2Label);
             Controls.Add(ProgressBar1Label);
             Controls.Add(button1);
             Controls.Add(label3);
@@ -152,8 +152,8 @@
         private Label label2;
         private Label label3;
         private Button button1;
-        private Label ProgressBar3Label;
-        private Label ProgressBar2Label;
         private Label ProgressBar1Label;
+        private Label ProgressBar2Label;
+        private Label ProgressBar3Label;
     }
 }
